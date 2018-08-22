@@ -63,12 +63,11 @@ if(isDev){
 	//开发环境配置
 	config.module.rules.push(
 	  {
-      test: /\.styl$/,
+      test: /\.css$/,
     	use: [
       	'style-loader',
       	'css-loader',
       	'postcss-loader',
-      	'stylus-loader'
     	]
     }
    );
